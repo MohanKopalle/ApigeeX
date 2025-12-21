@@ -44,7 +44,7 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 <details>
   <summary><b>2️⃣ Why VPC Network?</b></summary>
   
-  ##### VPC exists to solve enterprise-grade problems that public internet networks cannot. The Core drivers that the Legacy Networks failed to address but VPC solves are:
+  ##### VPC exists to solve enterprise-grade problems that public internet networks cannot. <br> The Core drivers that the Legacy Networks failed to address but VPC solves are:
   * ##### Security
       - Prevents unintended exposure of systems<br>
       - Enables private communication between internal services
