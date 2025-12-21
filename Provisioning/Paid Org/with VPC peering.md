@@ -72,19 +72,23 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 
 </details>
 
+<details>
+  <summary><b>3️⃣ What is Network Peering?</b></summary>
 
-### 3️⃣ What is Network Peering?
-
-
-### 4️⃣ What is Organization Policy Service?
-
-
-### 5️⃣ What is Organization Policy Constraint?
-
-
+</details>
 
 <details>
-  <summary><b> 6️⃣ What is Data Residency?</b></summary>
+  <summary><b>4️⃣ What is Organization Policy Service?</b></summary>
+
+</details>
+
+<details>
+  <summary><b>5️⃣ What is Organization Policy Constraint?</b></summary>
+
+</details>
+
+<details>
+  <summary><b>6️⃣ What is Data Residency?</b></summary>
   
   For many industry verticals and enterprises, using a cloud offering results in increased scrutiny from security and compliance teams (what data is stored in the cloud, where it is stored, who has access to it, who can see the data, etc.). In addition to this, many countries have passed data privacy laws that prohibit Personally Identifiable Information (PII) data from being stored outside the country or region.
 
@@ -113,11 +117,12 @@ If data residency is enabled for your Apigee installation, **note the following 
   - By default, the control plane is a global entity unless you select data residency (regionalization) at the time of Apigee organization creation; it can not be changed later. Once you select data residency and the control plane location, it is cannot be changed. If you later need a different location, you will need to create a new Google Cloud project.
   - When provisioning an org:
     - Without data residency: Specify the region with ANALYTICS_REGION.
-    - With data residency: Specify the region with CONTROL_PLANE_LOCATION and the sub-region with CONSUMER_DATA_REGION. See Data residency regions.
+    - With data residency: Specify the region with CONTROL_PLANE_LOCATION and the sub-region with CONSUMER_DATA_REGION. <br>See Data residency regions.<br>
       **NOTE:** You select the specific Apigee control plane hosting jurisdiction where your data is stored when you provision your Apigee instance. Note that a jurisdiction refers to a location within a geopolitical boundary that may span more than one region.
   - The admin who provisions Apigee must:
     - Inform Apigee users, such as API developers and other admins, about the data residency configuration
     - Set the location org policy as described in Restricting Resource Locations
   - API developers, admins, or other users of Apigee management APIs must use the new data residency API service endpoint.
 </details>
+
 ### 7. What is CMEK? 
