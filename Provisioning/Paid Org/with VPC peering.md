@@ -50,21 +50,21 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   <strong>In simple terms, <em>Cloud providers run millions of customers on shared physical infrastructure, so VPC exists to solve four hard enterprise problems:</em></strong>
   
   * ##### Security isolation
-      Your workloads:
-        - Cannot see other customers’ traffic
+      Your workloads:<br>
+        - Cannot see other customers’ traffic<br>
         - Cannot be reached unless you explicitly allow it
 
   * ##### Network control
-      You decide:
-        - Which services are public
-        - Which are private
+      You decide:<br>
+        - Which services are public<br>
+        - Which are private<br>
         - Which talk internally only
     
   * ##### Compliance & governance
-      Required for:
-        - Banking
-        - Healthcare
-        - PCI / SOC / ISO
+      Required for:<br>
+        - Banking<br>
+        - Healthcare<br>
+        - PCI / SOC / ISO<br>
         - Enterprise contracts
       
   * ##### Predictable connectivity
@@ -104,7 +104,7 @@ Data residency for Apigee meets compliance and regulatory requirements by allowi
   - Apigee Adapter for Envoy
   - Google Cloud CLI. To provision or manage a data residency-enabled organization, you can use Apigee in the Google Cloud console or the Apigee APIs.
 
-If data residency is enabled for your Apigee installation, note the following key points:
+If data residency is enabled for your Apigee installation, **note the following key points**:
 
   - Data residency must be enabled at the time Apigee is provisioned. You cannot enable data residency for an already-provisioned org.
   - By default, the control plane is a global entity unless you select data residency (regionalization) at the time of Apigee organization creation; it can not be changed later. Once you select data residency and the control plane location, it is cannot be changed. If you later need a different location, you will need to create a new Google Cloud project.
