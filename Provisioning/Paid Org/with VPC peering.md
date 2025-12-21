@@ -6,10 +6,24 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 
 ## FAQ for Beginners on Terminology
 <details>
+  <summary><b>0️⃣ What are Legacy Networks?</b></summary>
+
+  **Legacy networks** have a single RFC 1918 range, which you specify when you create the network. The network is global in scope and spans all cloud regions.
+
+  In a legacy network, instance IP addresses are not grouped by region or zone. One IP address can appear in one region, and the following IP address can be in a different region. Any given range of IPs can be spread across all regions, and the IP addresses of instances created within a region are not necessarily contiguous.
+
+  The following figure shows a legacy (non-VPC) network. Traffic from the internet passes through a global switching function in the network (shown in the diagram as a virtual switch), then down to individual instances.
+
+  Instances in a region can have IP addresses that are not grouped in any way. As shown in the example, instances from 10.240.0.0/16 are spread unpredictably across regions 1 and 2. For example, 10.240.1.4 is in region 2, 10.240.1.5 is in region 1, and 10.240.1.6 is in region 2.
+
+[A legacy network.](https://docs.cloud.google.com/static/vpc/images/no_subnetworks_1.svg)
+</details>
+
+<details>
   <summary><b>1️⃣ What is VPC Network?</b></summary>
   
-  **VPC (Virtual Private Cloud)** is a logically isolated, private network inside a public cloud (like Google Cloud, AWS, Azure) that you fully control.
-
+  **VPC (Virtual Private Cloud)** is a logically isolated, private network inside a public cloud (like Google Cloud, AWS, Azure) that you fully control. 
+  
   > **Think of it as:** *Your own private data-center network, built inside Google’s global infrastructure.*<br>
   
   **VPC:**<br>
@@ -30,7 +44,7 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 <details>
   <summary><b>2️⃣ Why VPC Network?</b></summary>
   
-  ##### VPC exists to solve enterprise-grade problems that public internet networks cannot. The Core drivers are:
+  ##### VPC exists to solve enterprise-grade problems that public internet networks cannot. The Core drivers that the Legacy Networks failed to address are:
   * ##### Security
       - Prevents unintended exposure of systems<br>
       - Enables private communication between internal services
