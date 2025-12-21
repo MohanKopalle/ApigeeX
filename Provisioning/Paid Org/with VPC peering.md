@@ -24,7 +24,7 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   
   **VPC (Virtual Private Cloud)** is a logically isolated, private network inside a public cloud (like Google Cloud, AWS, Azure) that you fully control. 
   
-  > **Think of it as:** *Your own private data-center network, built inside Google’s global infrastructure.*
+  > **Think of it as:** *Your own private data-center network, built inside Google’s global infrastructure.*<br>
   > **From a business standpoint, a VPC provides:**<br>
   >   - Isolation (your workloads are segregated from others)
   >   - Control (you decide who can access what)
@@ -87,6 +87,17 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
       
   * ##### Predictable connectivity
       Private IPs, private DNS, private routing (no dependency on the public internet)
+
+  * ##### Public Cloud Network vs VPC (Consulting Comparison)
+  
+  | Dimension | Public Cloud Network | Virtual Private Cloud (VPC) |
+  |---------|----------------------|-----------------------------|
+  | Network exposure | Public by default | Private by design |
+  | Security posture | Reactive, perimeter-based | Preventive, policy-driven |
+  | Compliance readiness | Limited | Enterprise-grade |
+  | Control over traffic | Minimal | Fine-grained (firewalls, routing, IAM) |
+  | Performance predictability | Internet-dependent | Low-latency, predictable |
+  | Enterprise suitability | ❌ Low | ✅ High |
 
 </details>
 
