@@ -7,10 +7,39 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 ## FAQ for Beginners on Terminology
 
 ### 1. What is VPC Network?
+VPC (Virtual Private Cloud) is a logically isolated, private network inside a public cloud (like Google Cloud, AWS, Azure) that you fully control.
 
+> **Think of it as:** *Your own private data-center network, built inside Google’s global infrastructure.*
+
+VPC Network:
+- Provides connectivity for your Compute Engine virtual machine (VM) instances, including Google Kubernetes Engine (GKE) clusters, serverless workloads, and other Google Cloud products built on Compute Engine VMs.
+- Offers built-in internal passthrough Network Load Balancers and proxy systems for internal Application Load Balancers.
+- Connects to on-premises networks by using Cloud VPN tunnels and VLAN attachments for Cloud Interconnect.
+- Distributes traffic from Google Cloud external load balancers to backends.
+
+Inside a VPC you control:
+- IP address ranges (CIDR blocks)
+- Subnets & regions
+- Firewall rules
+- Routing
+- Private connectivity
+- Access boundaries (who can talk to whom)
 
 ### 2. Why VPC Network?
-
+VPC exists to solve enterprise-grade problems that public internet networks cannot.
+**Core drivers:**
+**🔹 Security**
+  - Prevents unintended exposure of systems
+  - Enables private communication between internal services
+**🔹 Compliance**
+  - Required for financial services, healthcare, telecom, and government
+  - Supports auditability and regulatory mandates
+**🔹 Control & Predictability**
+  - Eliminates dependency on the public internet for internal traffic
+  - Ensures consistent performance and latency
+**🔹 Risk Management**
+  - Reduces attack surface
+  - Enables segmentation and blast-radius containment
 
 ### 3. What is Network Peering?
 
