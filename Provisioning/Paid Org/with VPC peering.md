@@ -22,8 +22,9 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 
 
 ### 6. What is Data Residency?
-  For many industry verticals and enterprises, using a cloud offering results in increased scrutiny from security and compliance teams (what data is stored in the cloud, where it is stored, who has access to it, who can see the data, etc.). In addition to this, many countries have passed data privacy laws that prohibit Personally Identifiable Information (PII) data from being stored outside the country or region.
-  Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. Historically, Apigee allowed you to select the instance region and analytics region; however, Apigee also has global infrastructure, such as an API proxy bundle or other customer data. With data residency, selecting the control plane location ensures that all customer content is stored within the specified region.
+For many industry verticals and enterprises, using a cloud offering results in increased scrutiny from security and compliance teams (what data is stored in the cloud, where it is stored, who has access to it, who can see the data, etc.). In addition to this, many countries have passed data privacy laws that prohibit Personally Identifiable Information (PII) data from being stored outside the country or region.
+
+Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. Historically, Apigee allowed you to select the instance region and analytics region; however, Apigee also has global infrastructure, such as an API proxy bundle or other customer data. With data residency, selecting the control plane location ensures that all customer content is stored within the specified region.
   
 - **Data residency can be used with the following:**
   - Apigee organizations (Subscription or Pay-as-you-go)
@@ -34,6 +35,7 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   - Advanced API Security
   - Apigee API hub.
   - Data collector. Data collectors are supported for Subscription and Pay-as-you-go organizations and hybrid versions 1.14.0 and later.
+
 - **Data residency is not currently supported for use with:**
   - Preview- or Beta-release features, such as the preview releases for Looker Studio Integration and Shadow API Discovery
   - Eval organizations
