@@ -124,5 +124,8 @@ If data residency is enabled for your Apigee installation, **note the following 
     - Set the location org policy as described in Restricting Resource Locations
   - API developers, admins, or other users of Apigee management APIs must use the new data residency API service endpoint.
 </details>
+ 
+<details>
+  <summary><b>7️⃣ What is CMEK?</b></summary>
 
-### 7. What is CMEK? 
+</details>
