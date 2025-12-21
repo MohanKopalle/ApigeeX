@@ -73,19 +73,22 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
 </details>
 
 
-### 3. What is Network Peering?
+### 3️⃣ What is Network Peering?
 
 
-### 4. What is Organization Policy Service?
+### 4️⃣ What is Organization Policy Service?
 
 
-### 5. What is Organization Policy Constraint?
+### 5️⃣ What is Organization Policy Constraint?
 
 
-### 6. What is Data Residency?
-For many industry verticals and enterprises, using a cloud offering results in increased scrutiny from security and compliance teams (what data is stored in the cloud, where it is stored, who has access to it, who can see the data, etc.). In addition to this, many countries have passed data privacy laws that prohibit Personally Identifiable Information (PII) data from being stored outside the country or region.
 
-Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. Historically, Apigee allowed you to select the instance region and analytics region; however, Apigee also has global infrastructure, such as an API proxy bundle or other customer data. With data residency, selecting the control plane location ensures that all customer content is stored within the specified region.
+<details>
+  <summary><b> 6️⃣ What is Data Residency?</b></summary>
+  
+  For many industry verticals and enterprises, using a cloud offering results in increased scrutiny from security and compliance teams (what data is stored in the cloud, where it is stored, who has access to it, who can see the data, etc.). In addition to this, many countries have passed data privacy laws that prohibit Personally Identifiable Information (PII) data from being stored outside the country or region.
+
+  Data residency for Apigee meets compliance and regulatory requirements by allowing you to specify the geographic locations (regions) where Apigee data is stored. Historically, Apigee allowed you to select the instance region and analytics region; however, Apigee also has global infrastructure, such as an API proxy bundle or other customer data. With data residency, selecting the control plane location ensures that all customer content is stored within the specified region.
   
 - **Data residency can be used with the following:**
   - Apigee organizations (Subscription or Pay-as-you-go)
@@ -111,9 +114,10 @@ If data residency is enabled for your Apigee installation, **note the following 
   - When provisioning an org:
     - Without data residency: Specify the region with ANALYTICS_REGION.
     - With data residency: Specify the region with CONTROL_PLANE_LOCATION and the sub-region with CONSUMER_DATA_REGION. See Data residency regions.
+      **NOTE:** You select the specific Apigee control plane hosting jurisdiction where your data is stored when you provision your Apigee instance. Note that a jurisdiction refers to a location within a geopolitical boundary that may span more than one region.
   - The admin who provisions Apigee must:
     - Inform Apigee users, such as API developers and other admins, about the data residency configuration
     - Set the location org policy as described in Restricting Resource Locations
   - API developers, admins, or other users of Apigee management APIs must use the new data residency API service endpoint.
-    
+</details>
 ### 7. What is CMEK? 
