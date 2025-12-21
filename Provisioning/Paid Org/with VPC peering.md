@@ -88,9 +88,8 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   * ##### Predictable connectivity
       Private IPs, private DNS, private routing (no dependency on the public internet)
 
-  * ##### Public Cloud Network vs VPC (Consulting Comparison)
+##### Public Cloud Network vs VPC (Consulting Comparison)
 
-  <center>
   | Dimension | Public Cloud Network | Virtual Private Cloud (VPC) |
   |---------|----------------------|-----------------------------|
   | Network exposure | Public by default | Private by design |
@@ -99,7 +98,7 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   | Control over traffic | Minimal | Fine-grained (firewalls, routing, IAM) |
   | Performance predictability | Internet-dependent | Low-latency, predictable |
   | Enterprise suitability | ❌ Low | ✅ High |
-</center>
+  
 
 </details>
 
