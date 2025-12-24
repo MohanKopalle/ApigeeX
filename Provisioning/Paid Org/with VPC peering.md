@@ -17,6 +17,9 @@ Commonly Used Terminologies, Quick-Handy-Notes and many more related to the same
   Instances in a region can have IP addresses that are not grouped in any way. As shown in the example, instances from 10.240.0.0/16 are spread unpredictably across regions 1 and 2. For example, 10.240.1.4 is in region 2, 10.240.1.5 is in region 1, and 10.240.1.6 is in region 2.
 
 ![Sample Legacy network Example from Google Docs](Images/no_subnetworks_1.svg)
+
+Legacy networks have a single global IP address range that cannot be divided into subnets. VPC networks are divided into subnets.
+With VPC networks, each Google Cloud region can have zero or more subnets. It is not possible to create regional subnets with a legacy network.
 </details>
 
 <details>
